@@ -96,6 +96,7 @@
   }
   .title {
     font-size: 2rem;
+   margin-bottom: 25px;
   }
   .text-container {
     text-align: justify;
