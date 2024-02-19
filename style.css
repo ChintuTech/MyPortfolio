@@ -162,6 +162,7 @@ section {
 
 /* PROFILE SECTION */
 
+
 #profile {
   display: flex;
   justify-content: center;
@@ -205,6 +206,17 @@ section {
   margin-top: 1rem;
   gap: 1rem;
 }
+
+/* ================================================== */
+@media screen and (max-width: 600px)
+{
+.section__pic-container {
+    width: auto;
+    /* height: 46vw; */
+    justify-content: center;
+}
+}
+
 
 /* ICONS */
 
