@@ -14,9 +14,16 @@
 
 @media screen and (max-width: 1200px) {
   #profile {
-    height: 19vh;
-    margin-bottom: 6rem;
+    height: 34vh;
+    margin-bottom: 1rem;
   }
+  .nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+}
+  
+
   /* #desktop-nav {
     display: none;
   }
@@ -44,7 +51,7 @@
   .section__pic-container {
     width: 275px;
     height: 275px;
-    margin: 0 auto 2rem;
+    /* margin: 0 auto 2rem; */
   }
   .about-containers {
     margin-top: 0;
@@ -102,6 +109,7 @@
   }
   .section__pic-container {
     width: auto;
+    margin: 0 auto 2rem;
    
     justify-content: center;
   }
