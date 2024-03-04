@@ -8,7 +8,8 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: oblique;
 }
 
 html {
@@ -46,20 +47,21 @@ nav {
 }
 
 a {
-  color: black;
+  color: rgb(1, 7, 17);
   text-decoration: none;
   text-decoration-color: white;
 }
 
 a:hover {
-  color: grey;
-  text-decoration: underline;
-  text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  color:rgb(15, 90, 229);
+  /* text-decoration: underline; */
+  /* text-underline-offset: 1rem; */
+  /* text-decoration-color: rgb(141, 251, 15); */
 }
 
 .logo {
   font-size: 2rem;
+  
 }
 
 .logo:hover {
@@ -208,14 +210,7 @@ section {
 }
 
 /* ================================================== */
-@media screen and (max-width: 600px)
-{
-.section__pic-container {
-    width: auto;
-    /* height: 46vw; */
-    justify-content: center;
-}
-}
+
 
 
 /* ICONS */
