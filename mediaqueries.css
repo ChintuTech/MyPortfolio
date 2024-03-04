@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 55vh;
+    height: 65vh;
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -13,20 +13,24 @@
 }
 
 @media screen and (max-width: 1200px) {
-  #desktop-nav {
+  #profile {
+    height: 40vh;
+    margin-bottom: 6rem;
+  }
+  /* #desktop-nav {
     display: none;
   }
   #hamburger-nav {
     display: flex;
-  }
+  } */
   #experience,
   .experience-details-container {
     margin-top: 2rem;
   }
-  #profile,
+  /* #profile,
   .section-container {
     display: block;
-  }
+  } */
   .arrow {
     display: none;
   }
@@ -38,8 +42,8 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 399px;
-    height: 399px;
+    width: 275px;
+    height: 275px;
     margin: 0 auto 2rem;
   }
   .about-containers {
@@ -48,6 +52,12 @@
 }
 
 @media screen and (max-width: 600px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
   #contact,
   footer {
     height: 40vh;
@@ -101,4 +111,8 @@
   .text-container {
     text-align: justify;
   }
+  about-containers, .about-details-container {
+    display: absulete;
+    
+}
 }
