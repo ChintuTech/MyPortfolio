@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 1200px) {
   #profile {
-    height: 40vh;
+    height: 19vh;
     margin-bottom: 6rem;
   }
   /* #desktop-nav {
@@ -54,6 +54,10 @@
 @media screen and (max-width: 600px) {
   #desktop-nav {
     display: none;
+  }
+    #profile,
+  .section-container {
+    display: block;
   }
   #hamburger-nav {
     display: flex;
